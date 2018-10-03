@@ -1,0 +1,37 @@
+{
+  "_from": "cordova-android-play-services-gradle-release@0.0.2",
+  "_id": "cordova-android-play-services-gradle-release@0.0.2",
+  "_inBundle": false,
+  "_integrity": "sha1-+1853ROmzdAOpgJhoTGpBStEA/o=",
+  "_location": "/cordova-android-play-services-gradle-release",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "cordova-android-play-services-gradle-release@0.0.2",
+    "name": "cordova-android-play-services-gradle-release",
+    "escapedName": "cordova-android-play-services-gradle-release",
+    "rawSpec": "0.0.2",
+    "saveSpec": null,
+    "fetchSpec": "0.0.2"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-android-play-services-gradle-release/-/cordova-android-play-services-gradle-release-0.0.2.tgz",
+  "_shasum": "fb5f39dd13a6cdd00ea60261a131a9052b4403fa",
+  "_spec": "cordova-android-play-services-gradle-release@0.0.2",
+  "_where": "/home/paquita/Documentos/app/mi-universidad-app",
+  "author": {
+    "name": "Dave Alden"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Cordova/Phonegap plugin to align various versions of the Play Services library specified by other plugins to the latest release version",
+  "devDependencies": {},
+  "license": "MIT",
+  "name": "cordova-android-play-services-gradle-release",
+  "version": "0.0.2"
+}

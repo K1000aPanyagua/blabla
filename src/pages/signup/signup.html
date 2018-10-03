@@ -21,9 +21,9 @@
                     <ion-label>
                         <ion-icon name="person"></ion-icon>
                     </ion-label>
-                    <ion-input formControlName="name" placeholder="{{'SIGNUP_NAME'|translate}}" type="text"></ion-input>
+                    <ion-input formControlName= name placeholder="{{'SIGNUP_NAME'|translate}}" type="text"></ion-input>
                 </ion-item>
-                <ng-container *ngIf="error_data.name || (signupForm.controls.name.errors && signupForm.controls.name.dirty) || (signupForm.controls.surname.errors && signupForm.controls.surname.dirty)">
+                <ng-container *ngIf="error_data.name || (signupForm.controls.name.errors && signupForm.controls.name.dirty) ">
                     <ng-container *ngFor="let error of error_data.name">
                         <p class="alert">{{error}}</p>
                     </ng-container>
@@ -38,7 +38,7 @@
                     </ion-label>
                     <ion-input formControlName="surname" placeholder="{{'SIGNUP_SURNAME'|translate}}" type="text"></ion-input>
                 </ion-item>
-                <ng-container *ngIf="error_data.surname || (signupForm.controls.name.errors && signupForm.controls.name.dirty) || (signupForm.controls.surname.errors && signupForm.controls.surname.dirty)">
+                <ng-container *ngIf="error_data.surname || (signupForm.controls.surname.errors && signupForm.controls.surname.dirty)">
                     <ng-container *ngFor="let error of error_data.surname">
                         <p class="alert">{{error}}</p>
                     </ng-container>
